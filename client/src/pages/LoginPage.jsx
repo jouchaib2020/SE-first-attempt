@@ -1,5 +1,10 @@
+import { useNavigate } from "react-router-dom"
 import Header from "../components/Header"
+
+
 function LoginPage() {
+    const navigateTo = useNavigate()
+
   return (
     <>
         <Header />
@@ -35,14 +40,29 @@ function LoginPage() {
                 </div>
                 
                 <div>
-                <button className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-3 rounded">Log in</button>
+                <button 
+                className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-3 rounded"
+                onClick={() => {navigateTo('/')}}
+                >
+                    Log in
+                </button>
                 </div>
             </form>
             
             <div className="mt-2 mb-3">
-            <a href="#" className="text-sm text-teal-500 hover:text-teal-600 hover:underline">Sign up</a>
+            <button 
+            className="text-sm text-teal-500 hover:text-teal-600 hover:underline"
+            onClick={() => {navigateTo('/')}}
+            >
+                Sign up
+            </button>
             <br/>
-            <a href="#" className="text-sm text-teal-500 hover:text-teal-600 hover:underline">Forgot your password?</a>
+            <button 
+            className="text-sm text-teal-500 hover:text-teal-600 hover:underline"
+            onClick={() => {navigateTo('/')}}
+            >
+                Forgot your password?
+            </button>
             </div>
             </div>
         </main>
