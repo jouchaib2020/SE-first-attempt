@@ -13,9 +13,9 @@ function NewPostForm() {
         }
       }>
 
-          <div className="mb-4">
+          <div>
             <label className="block text-gray-700 text-sm mb-2" >Title</label>
-            <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" name="title" placeholder="Title example" />
+            <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" name="title" placeholder="Title example" />
           </div>
 
           <div className="md:flex md:justify-between">
@@ -23,7 +23,7 @@ function NewPostForm() {
             <div className="w-full md:w-3/12 mb-4 md:mb-0">
                 <label className="block text-gray-700 text-sm mb-2" >Duration</label>
             <div className="relative">
-                  <select className="block appearance-none w-full bg-white border border-gray-400 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-gray-500" id="job-type" name="job-type">
+                  <select className="block appearance-none w-full  border border-gray-400 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-gray-500" id="job-type" name="job-type">
                     <option>3-Months</option>
                     <option>6-Months</option>
                     <option>12-Months</option>
@@ -37,23 +37,23 @@ function NewPostForm() {
 
             <div className="w-full md:w-8/12 mb-4 md:mb-0">
               <label className="block text-gray-700 text-sm mb-2">Location</label>
-              <input type="text" className="appearance-none block w-full bg-white text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" name="location" placeholder="Torino" />
+              <input type="text" className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" name="location" placeholder="Torino" />
             </div>
           </div>
           <div>
             <label className="block text-gray-700 text-sm mb-2 ">Description</label>
-            <textarea className="border border-gray-400" name="postContent" rows={4} cols={76} placeholder="Describe the thesis proposal"/>
+            <textarea className="border border-gray-400" name="postContent" rows={3} cols={76} placeholder="Describe the thesis proposal"/>
           </div>
 
           <div className="flex flex-wrap -mx-3">
             <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
               <label className="block text-gray-700 text-sm mb-2">Academic Advisor</label>
-              <input type="text" className="appearance-none block w-full bg-white text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" name="company" placeholder="Dr. Ibra" />
+              <input type="text" className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" name="company" placeholder="Dr. Ibra" />
             </div>
 
             <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
               <label className="block text-gray-700 text-sm mb-2">Website</label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" id="company" name="company" placeholder="https://www.example.com/" />
+              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500" id="company" name="company" placeholder="https://www.example.com/" />
             </div>
           </div>
 

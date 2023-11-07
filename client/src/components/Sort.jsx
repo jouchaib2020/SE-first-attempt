@@ -1,12 +1,14 @@
 
 function Sort() {
   return (
-    <div className="w-64 mb-6 flex border border-gray-400 bg-white rounded self-center">
+    <div className="w-64 my-4 flex border border-gray-400 bg-white rounded self-center">
         <label className="text-gray-700 font-bold py-3  leading-tight mx-2" htmlFor="sort-by">
-        Sort by
+        Sort by |
         </label>
         <div className="relative flex-grow">
             <select className="block appearance-none w-full bg-white p-3 leading-tight rounded" id="sort-by" name="sort-by">
+                <option>Active</option>
+                <option>Archived</option>
                 <option >Created Date</option>
                 <option>Expiration Date</option>
                 <option>No. of Applications</option>

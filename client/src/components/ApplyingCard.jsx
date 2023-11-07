@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 
-function ApplyingCard({Title, Professor, Applicants, Created, Expires, Description}) {
+function ApplyingCard({Title, Professor, Applicants, Created, Expires, Description, Image}) {
   return (
-    <div className=" flex mb-6 border-b pb-4">
-        <div className="employer-logo flex-none mr-8">
-          <img className="h-12 w-12" src="https://www.leadeight.com/wp-content/uploads/2017/08/basecamp-logo-e1503765309709.png" alt="" />
+    <div className="flex mb-6 border-b pb-4">
+        <div className="flex-none mr-8 max-w-xs ">
+          <img className=" rounded-t-lg" src={Image} alt="" />
         </div>
 
         <div className="post w-3/4">
