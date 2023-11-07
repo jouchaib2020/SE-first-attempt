@@ -1,0 +1,17 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+.dropdown-menu {
+  right: 0px;
+  top: 20px;
+}
+
+.max-w {
+  max-width: 1329px;
+}
+
+.min-w {
+  min-width: 1110px;
+}
