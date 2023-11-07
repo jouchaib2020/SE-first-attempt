@@ -39,16 +39,16 @@ const [isSticky, setIsSticky] = useState(false);
           Submit
         </button>
         
-        <div className="dropdown relative flex items-center h-full hover:bg-gray-500 px-2 transition">
+        <div className="dropdown relative flex items-center h-full px-2 transition">
           <button 
           type="button" 
           className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" 
-          aria-expanded="false" 
-
           >
             <img className="w-10 h-10 rounded-full" src="https://static.vecteezy.com/system/resources/previews/011/459/666/original/people-avatar-icon-png.png" alt="user photo" />
           </button>
-          <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+          <div 
+          className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+          id="user-dropdown">
             <div className="px-4 py-3">
               <span className="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
               <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
@@ -79,9 +79,7 @@ const [isSticky, setIsSticky] = useState(false);
           >
             Sign In
           </button>
-          <button className="bg-white text-gray-700 hover:text-gray-900 py-2 px-4 rounded-full border-solid border border-gray-600">
-            Sign Up
-          </button>
+
         </div>
       )}
     </nav>
