@@ -36,7 +36,7 @@ const [isSticky, setIsSticky] = useState(false);
         className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-4 rounded-full mr-3"
         onClick={() => {navigateTo('/')}}
         >
-          Submit
+          Home
         </button>
         
         <div className="dropdown relative flex items-center h-full px-2 transition">

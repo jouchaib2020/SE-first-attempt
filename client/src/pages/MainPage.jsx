@@ -20,7 +20,7 @@ function MainPage({user}) {
           </div>
           )}
          {myUser.role === "professor" && 
-         <main className="main bg-gray-200 px-4 pb-6 w-full flex flex-col">
+         <main className="bg-gray-200 px-4 pb-6 w-full flex flex-col">
             <Sort />
             <ProfessorBoard />
           </main>}
